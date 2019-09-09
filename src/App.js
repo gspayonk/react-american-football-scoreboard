@@ -48,7 +48,9 @@ function App() {
             () => setHomeScore(homeScore + 3) } >
         { " " }
         Home Field Goal { " " } <
-        /button>{" "} <
+        /button>{" "}
+
+        { /* TODO Stretch - Counter: <button onClick={() => setHomeScore(0)}>Reset Home Score</button>*/ } <
         /div>{" "} <
         div className = "awayButtons" >
         <
@@ -63,7 +65,9 @@ function App() {
             () => setAwayScore(awayScore + 3) } >
         { " " }
         Away Field Goal { " " } <
-        /button>{" "} <
+        /button>{" "}
+
+        { /* TODO Stretch - Counter: <button onClick={() => setAwayScore(0)}>Reset Away Score</button>*/ } <
         /div>{" "} <
         /section>{" "} <
         /div>
